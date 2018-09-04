@@ -1,0 +1,24 @@
+{
+  "name": "fs_wd_casestudy_2",
+  "version": "1.0.0",
+  "description": "a simple note taking app using nodejs, express and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschutter/FS_WD_CaseStudy_2.git"
+  },
+  "author": "kschutter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kschutter/FS_WD_CaseStudy_2/issues"
+  },
+  "homepage": "https://github.com/kschutter/FS_WD_CaseStudy_2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13"
+  }
+}
