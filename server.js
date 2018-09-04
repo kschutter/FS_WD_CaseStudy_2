@@ -26,6 +26,8 @@ app.get('/', (req, res) => {
     res.json({"message": "This is my easyNotes application"});
 });
 
+require('./app/routes/note.routes.js')(app);
+
 // Listening on 3000
 app.listen(3000, () => {
     console.log("Server is listening on 3000");
